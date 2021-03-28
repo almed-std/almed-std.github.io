@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--CDN BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="res/hamburgers.css" rel="stylesheet">
+  <!-- Akhir CDN BOOTSTRAP -->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
+  <!-- Akhir Google Fonts -->
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/cfd43ca04c.js" crossorigin="anonymous"></script>
+  <!-- Akhir Font Awesome -->
+  <!-- My CSS -->
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="res/style.css">
+  <title>AlmedSTD</title>
+</head>
+
+<body>
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class=" hamburger hamburger--elastic-r " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar-->
+  <!-- Jumbutron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="nf">
+        <h1 class="nf-r2">AlmedStd</h1>
+        <h2 class="nf-r1">A Junior Web Developer</h2>
+      </div>
+      <!-- 
+      <div class="toggle">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
+      -->
+    </div>
+  </div>
+  <!-- Akhir Jumbotron -->
+  <!-- Profile -->
+  <section class="profile text-dark" id="profile">
+    <div class="container">
+      <div class="row">
+        <div class="col mt-5 fw-bolder md-12 text-center">
+          <h1 data-aos="fade-left" class="fw-bolder mb-5">About Me</h1>
+        </div>
+      </div>
+      <div class="row info">
+        <div class="col mt-1 text-center">
+          <img data-aos="fade-right" class="rounded-circle" width="300" src="img/aed.jpg">
+        </div>
+        <div data-aos="fade-left" class="col mt-5">
+          <h3>Junior Web Developer</h3>
+          <p>Hi My name is Ali Ahmed, I am usually called Almed. I am in grade 2 high school. I was interested in programming when I was in junior high school. I focused on dividing programming when I entered high school. After learning programming for a few months, I was more interested in web development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Profile -->
+  <!-- Skills -->
+  <div id="skills" class="skills">
+    <div class="container text-center">
+      <h1 data-aos="fade-left" class="fw-bolder">Skills & Tools</h1>
+      <div class="row">
+        <div class="col mt-5 col-6">
+          <i data-aos="fade-right" class="fab fa-html5 fa-10x mx-4"></i>
+        </div>
+        <div class="col mt-5 col-6">
+          <i data-aos="fade-left" class="fab fa-css3 fa-10x mx-4"></i>
+        </div>
+        <div class="col mt-5 col-6">
+          <i data-aos="fade-right" class="fab fa-bootstrap fa-10x mx-4"></i>
+        </div>
+        <div class="col mt-5 col-6">
+          <i data-aos="fade-left" class="fab fa-js-square fa-10x mx-4"></i>
+        </div>
+        <div class="col mt-5 col-6">
+          <i data-aos="fade-right" class="fab fa-font-awesome fa-10x mx-4"></i>
+        </div>
+        <div class="col mt-5 col-6">
+          <i data-aos="fade-left" class="fab fa-github fa-10x mx-4"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark text-center text-light">
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/AlmedSTD?s=09" role="button"><i class="fab fa-twitter"></i></a>
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/almed.std?igshid=bq9suecinhav" role="button"><i class="fab fa-instagram"></i></a>
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/almed-std/" role="button"><i class="fab fa-github"></i></a>
+      </section>
+    </div>
+    <div class="bg-dark text-center p-3">
+      Created With Love By
+      <a class="text-white" href="#">AlmedSTD</a>
+    </div>
+  </footer>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    AOS.init();
+
+    /* Loader TimeOut */
+    setTimeout(function() {
+      $('.loader_bg').fadeToggle();
+    }, 1500);
+
+    /* Hamburger ANIMATION */
+    var $hamburger = $(".hamburger");
+    $hamburger.on("click", function(e) {
+      $hamburger.toggleClass("is-active");
+      // Do something else, like open/close menu
+    });
+
+    //DARK MENU
+    let checkbox = document.querySelector('.checkbox')
+
+    // press the button to toggle the .dark-mode class
+    /*
+    button.addEventListener('change', () => {
+      document.documentElement.classList.toggle('dark-mode')
+    })
+
+    const chk = document.getElementById('chk');
+    chk.addEventListener('change', () => {
+      document.documentElement.classList.toggle('dark-mode')
+    })*/
+  </script>
+
+</html>
